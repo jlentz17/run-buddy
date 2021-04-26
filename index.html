@@ -37,18 +37,35 @@
   </header>
 
   <!-- hero/jumbotron -->
-<section>
-    <div>
+<section class="hero">
+    <div class="hero-form">
         <h3>Get Started Today!</h3>
-        <p>Fill out this form and one of our trainers will schedule a consult</p>
+        <p>Fill out this form and one of our trainers will schedule a consult.</p>
         <form>
             <!-- for and id's should always match -->
-        <label for="name">Enter full name:</label>
-        <input type="text" placeholder="Your Name" name="name" id="name" />
-        <label for="email">Enter email address:</label>
-        <input type="email" placeholder="Email Address" name="email" id="email"/>
-        <label for="phone">Enter a telephone number:</label>
-        <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+        <label 
+        for="name">Enter full name:</label>
+        <input 
+        type="text" placeholder="Your Name" name="name" 
+        id="name" class= "form-input"/>
+        <label 
+        for="email">Enter email address:</label>
+        <input 
+        type="email" placeholder="Email Address" 
+        name="email" 
+        id="email" class= "form-input"/>
+        <label 
+        for="phone">Enter your phone number:</label>
+        <input 
+        type="tel" 
+        placeholder= "Phone Number" 
+        name="phone" 
+        id="phone"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        required 
+        class= "form-input">
+        <small>Format: 123-456-7890</small>
+
         <!-- this won't pop up the validation warning -->
         <p>
             Have you ever worked out with a trainer before?
@@ -61,9 +78,10 @@
             <label for="checkbox" >
                 I acknowledge that I am at least 18 years of age.
             </label>
-            <input type="checkbox" name="age-confirm" id="checkbox" />
+            <input type="checkbox"       name="age-confirm" id="checkbox" />
         </p>
-        <button type="submit">
+        <button 
+        class="button" type="submit">
             Get Running!!
         </button>
         </form
