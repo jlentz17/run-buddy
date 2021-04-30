@@ -1,14 +1,18 @@
-# Run Buddy
+# Run Buddy Inc.
 
 ## Purpose
+
 A website that offers fitness training services
 
-## Built With 
-* HTML
-* CSS
+## Built With
 
-## Website 
+- HTML
+- CSS
+
+## Website
+
 https://jlentz17.github.io/run-buddy/
 
 ## Contribution
+
 Made with ❤️ by Jeremy Lentz
