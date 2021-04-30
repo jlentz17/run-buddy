@@ -16,3 +16,5 @@ https://jlentz17.github.io/run-buddy/
 ## Contribution
 
 Made with ❤️ by Jeremy Lentz
+
+### ©️2019 Run Buddy, Inc
